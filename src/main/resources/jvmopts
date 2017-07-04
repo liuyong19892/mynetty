@@ -1,4 +1,4 @@
--Dlogback.configurationFile=/services/data/engine/conf/logback.xml
+-Dlogback.configurationFile=/services/data/mklog/conf/logback.xml
 -J-Xms4g -J-Xmx4g -J-Xmn1100m -J-Xss1m -J-XX:MaxDirectMemorySize=3g
 -J-XX:+UseFastAccessorMethods
 -J-XX:+AggressiveOpts
@@ -8,13 +8,13 @@
 #-J-XX:+UnlockCommercialFeatures -J-XX:+FlightRecorder
 
 -J-XX:+HeapDumpOnOutOfMemoryError
--J-XX:HeapDumpPath=/services/logs/engine/engine-dump.hprof
+-J-XX:HeapDumpPath=/services/logs/mklog/engine-dump.hprof
 -J-XX:+PrintGC
 -J-XX:+PrintGCDetails
 -J-XX:+PrintGCTimeStamps
 -J-XX:+PrintGCApplicationConcurrentTime
 -J-XX:+PrintGCApplicationStoppedTime  
--J-Xloggc:/services/logs/engine/gc.log
+-J-Xloggc:/services/logs/mklog/gc.log
 
 -J-XX:+UseParNewGC
 -J-XX:+UseConcMarkSweepGC
