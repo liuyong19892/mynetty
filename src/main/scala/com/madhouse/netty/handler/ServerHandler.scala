@@ -18,7 +18,6 @@ class ServerHandler extends SimpleChannelInboundHandler[FullHttpRequest]  {
   override def channelActive(ctx: ChannelHandlerContext): Unit = {
     super.channelActive(ctx)
   }
-
   override def messageReceived(ctx: ChannelHandlerContext, msg: FullHttpRequest): Unit = {
 
     try {

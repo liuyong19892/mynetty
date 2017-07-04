@@ -25,7 +25,7 @@ mappings in Universal <++= sourceDirectory map { src =>
 }
 libraryDependencies ++= Seq(
 "com.google.guava" % "guava" % "18.0",
-"io.netty" % "netty-all" % "4.0.35.Final",
+ "io.netty" % "netty-all" % "5.0.0.Alpha2",
 "ch.qos.logback" % "logback-classic" % "1.1.7",
 "log4j" % "log4j" % "1.2.17",
 "org.jboss.marshalling" % "jboss-marshalling" % "1.4.10.Final",
